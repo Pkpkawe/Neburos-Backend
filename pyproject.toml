@@ -1,0 +1,11 @@
+[project]
+name = "neburos_api"
+version = "0.1.0"
+description = "neburos api"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.137.1",
+    "pytest>=9.1.0",
+    "uvicorn>=0.49.0",
+]
